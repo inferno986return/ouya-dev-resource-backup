@@ -1,0 +1,70 @@
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 'android-16'
+    buildToolsVersion '21.1.2'
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("../sample.keystore")
+            storePassword "password"
+            keyAlias "iap"
+            keyPassword "password"
+        }
+        release {
+            storeFile file("../sample.keystore")
+            storePassword "password"
+            keyAlias "iap"
+            keyPassword "password"
+        }
+    }
+
+    defaultConfig {
+        targetSdkVersion 16
+        minSdkVersion 16
+
+        versionName '1.0'
+        versionCode 1
+
+        applicationId 'tv.ouya.sample'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
