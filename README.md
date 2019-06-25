@@ -11,7 +11,7 @@ The screenshot of the ouya.tv/develop page was taken using the open-source Chrom
 
 ## To-do
 
-* Add the developer documentation from the OUYA site to the [wiki](https://github.com/inferno986return/ouya-dev-resource-backup/wiki) section of this repository, particularly for each supported game engine.
+* Add the developer documentation from the OUYA site to the [wiki](https://github.com/inferno986return/ouya-dev-resource-backup/wiki) section of this repository, particularly for each supported game engine. In the meantime this should all be accessible from the OUYA's official repository: https://github.com/ouya/docs
 
 ## Keep in touch!
 
