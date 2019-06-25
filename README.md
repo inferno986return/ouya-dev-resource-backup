@@ -7,6 +7,9 @@ Razer still owns the rights to the OUYA and Forge TV brands. I am not asserting 
 
 The Ouya Development Kit (ODK) is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
+The screenshot of the ouya.tv/develop page was taken using the open-source Chrome extension [Full Page Screen Capture](https://github.com/mrcoles/full-page-screen-capture-chrome-extension). It works on [Brave](https://www.brave.com/)!
+
+
 ## Keep in touch!
 
 * [**OUYA Preservation**](https://steamcommunity.com/groups/ouyapreservation#curation) is a Steam group that has a list of over 100 games that were on OUYA but are also on Steam.
