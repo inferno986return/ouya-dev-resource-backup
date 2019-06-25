@@ -5,7 +5,7 @@ Button prompt images are taken from https://gamedevelopment.tutsplus.com/article
 
 Razer still owns the rights to the OUYA and Forge TV brands. I am not asserting ownership over any of these, just a desire to archive these resources. The official OUYA GitHub profile is https://github.com/ouya
 
-The Ouya Development Kit (ODK) is licensed under the (Apache 2.0 License)[https://www.apache.org/licenses/LICENSE-2.0].
+The Ouya Development Kit (ODK) is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Keep in touch!
 
