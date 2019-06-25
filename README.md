@@ -1,9 +1,16 @@
 # ouya-dev-resource-backup
-A selection of resources for OUYA developers from the soon-to-be-defunct ouya.tv website and other sites, in-case a hobbyist community emerges from the OUYA shutdown after June 25th 2019.
+A selection of resources for OUYA developers from the soon-to-be-defunct ouya.tv website and other sites, in-case a hobbyist community emerges from the OUYA shutdown after June 25th 2019. If you think I missed something create an issue or pull request.
 
 Button prompt images are taken from https://gamedevelopment.tutsplus.com/articles/how-to-learn-ouya-gamedev--gamedev-9197 which provides a detailed, albeit outdated information about the OUYA console for developers.
 
 Razer still owns the rights to the OUYA and Forge TV brands. I am not asserting ownership over any of these, just a desire to archive these resources. The official OUYA GitHub profile is https://github.com/ouya
+
+The Ouya Development Kit (ODK) is licensed under the (Apache 2.0 License)[https://www.apache.org/licenses/LICENSE-2.0].
+
+## Keep in touch!
+
+* (**OUYA Preservation**)[https://steamcommunity.com/groups/ouyapreservation#curation] is a Steam group that has a list of over 100 games that were on OUYA but are also on Steam.
+* (**Ouya saviors**)[https://discord.gg/svMYfqH] is a Discord group dedicated to preserving the OUYA.
 
 ## Technical Specifications
 According to https://www.ouya.tv/press/
